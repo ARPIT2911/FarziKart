@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url:"https://farzikart1.onrender.com/",
+  url:"https://farzikart1.onrender.com/admin",
   auth: {
     secret: env('ADMIN_JWT_SECRET'),
   },
