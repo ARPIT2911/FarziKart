@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-  url: "http://app.foo.bar/admin",
   auth: {
     secret: env('ADMIN_JWT_SECRET'),
   },
