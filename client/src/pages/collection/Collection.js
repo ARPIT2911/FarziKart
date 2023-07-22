@@ -24,6 +24,10 @@ function Collection({ search }) {
 
   const sortOptions = [
     {
+      value: "Price - High To Low",
+      sort: "price:desc",
+    },
+    {
       value: "Price - Low To High",
       sort: "price",
     },
